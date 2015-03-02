@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Game Demo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/css/main.css">
+        <script src="//code.createjs.com/createjs-2013.12.12.min.js"></script>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    </head>
+    <body oncontextmenu="return false;">
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="view">
+            <canvas id="canvas" class="left" width="960" height="920"></canvas>            
+        </div>        
+
+        <script src="//code.jquery.com/jquery-2.1.1.js"></script>        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>        
+        
+        <script src="scripts/game/data/mainData.js"></script>
+        <script src="scripts/game/controllers/mainDataCtrl.js"></script>
+
+        <script src="scripts/utils/helper.js"></script>
+        <script src="scripts/utils/timer.js"></script>
+        <script src="scripts/config/config.js"></script>
+               
+        <script src="splashScreen.js"></script>
+
+        <script src="scripts/game/components/monster.js"></script>        
+        <script src="scripts/game/components/rocket.js"></script>
+        <script src="scripts/game/components/explosion.js"></script>
+        <script src="scripts/game/components/circle.js"></script>
+        <script src="scripts/game/components/laser.js"></script>
+        <script src="scripts/game/components/character.js"></script>
+        <script src="scripts/game/scene.js"></script>
+        <script src="scripts/game/game.js"></script>
+
+        <script src="scripts/game/layout/menu.js"></script>
+        <script src="scripts/game/layout/info.js"></script>
+        <script src="scripts/game/layout/stats.js"></script>
+        <script src="scripts/app.js"></script>       
+    </body>
+</html>
